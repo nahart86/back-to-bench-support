@@ -3,27 +3,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Support — Back to Bench</title>
-<link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#173d34">
+  <meta name="description" content="Back to Bench keeps the state and next step of a hands-on project together, so it is easier to pick up again later.">
+  <title>Back to Bench — Pick up where you left off</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main>
-    <h1>Back to Bench Support</h1>
-    <p>Back to Bench is a place to save where a hands-on project paused and what to do next.</p>
+<body class="landing-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Back to Bench home">
+      <img class="brand-mark" src="assets/app-icon.png" alt="">
+      <span>Back to Bench</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#how-it-helps">How it helps</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://github.com/nahart86/back-to-bench-support/issues">Support</a>
+    </nav>
+  </header>
 
-    <h2>Before contacting support</h2>
-    <ul>
-      <li>Include the app version and iOS version.</li>
-      <li>Describe what you expected and the steps that led to the issue.</li>
-      <li>Do not include passwords, private project notes, or other sensitive details.</li>
-    </ul>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>For the work you come back to</p>
+        <h1 id="hero-title">Pick up where<br class="desktop-break"> you left off.</h1>
+        <p class="hero-lede">Save the state of a hands-on project and the next small move. When life interrupts, leave yourself a useful way back.</p>
+        <div class="hero-actions">
+          <span class="release-status"><span class="status-dot" aria-hidden="true"></span>Public release is in preparation</span>
+          <a class="text-link" href="#how-it-helps">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="price-note">Planned US price: <strong>$2.99 one-time</strong>. No subscription.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a project bookmark with a next step and estimated time">
+        <div class="sun-disc" aria-hidden="true"></div>
+        <div class="work-card">
+          <div class="card-topline"><span class="card-dot"></span><span>BACK TO THIS</span></div>
+          <div class="card-rule"></div>
+          <span class="card-label">THE NEXT MOVE</span>
+          <p>Fit the top.<br>Mark the holes.</p>
+          <div class="card-meta"><span aria-hidden="true">◷</span> About 25 minutes</div>
+          <div class="card-bookmark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6.8 3.5h10.4a1 1 0 0 1 1 1v16l-6.2-3.8-6.2 3.8v-16a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.8"/><path d="M9 8h6M9 11.5h6" stroke="currentColor" stroke-linecap="round" stroke-width="1.6"/></svg>
+          </div>
+        </div>
+        <p class="art-caption">A little context now.<br>An easier start later.</p>
+      </div>
+    </section>
 
-    <p><a href="https://github.com/nahart86/back-to-bench-support/issues">Contact support via GitHub Issues</a>. Issues may be publicly visible.</p>
-    <p><a href="privacy.html">Privacy Policy</a></p>
+    <section class="intro-section" id="how-it-helps" aria-labelledby="intro-title">
+      <div class="section-heading">
+        <p class="eyebrow eyebrow-dark">Leave a good bookmark</p>
+        <h2 id="intro-title">Keep the details<br>you’ll want later.</h2>
+      </div>
+      <p class="intro-text">A shelf half-built. A garden bed waiting for the next dry weekend. A sketch with one good idea left to try. Back to Bench keeps the little details together so you do not have to piece them back together from memory.</p>
+    </section>
 
-    <h2>Project copies</h2>
-    <p>Export creates a JSON copy when you choose to make one. Keep that copy somewhere you control if you want a separate backup. Importing a file changes the projects in the app according to the selected import option; review the app's confirmation before proceeding.</p>
+    <section class="feature-grid" aria-label="Project note features">
+      <article class="feature-card feature-card-large">
+        <div class="feature-icon icon-terracotta" aria-hidden="true">↳</div>
+        <p class="feature-kicker">When you pause</p>
+        <h3>Leave your future self a clear next step.</h3>
+        <p>Note the exact state, what to do next, a snag, and where the tools or materials are. Add an optional photo and an estimate for your next session.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon icon-sage" aria-hidden="true">⌕</div>
+        <p class="feature-kicker">When you return</p>
+        <h3>Find your place again.</h3>
+        <p>Search project names and details, revisit recent pause notes, or put finished and on-hold work in the archive.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon icon-gold" aria-hidden="true">◷</div>
+        <p class="feature-kicker">When time is short</p>
+        <h3>Choose a small window.</h3>
+        <p>Use the visual timebox to make a next step feel manageable. It has no alarm and no streak to maintain.</p>
+      </article>
+    </section>
+
+    <section class="categories" aria-labelledby="category-title">
+      <div>
+        <p class="eyebrow eyebrow-dark">Room for all kinds of making</p>
+        <h2 id="category-title">One workbench,<br>many projects.</h2>
+      </div>
+      <ul class="category-list" aria-label="Project categories">
+        <li>Craft</li><li>Repair</li><li>Build</li><li>Garden</li><li>Art</li><li>Other</li>
+      </ul>
+    </section>
+
+    <section class="screenshots" aria-labelledby="screens-title">
+      <div class="section-heading section-heading-centered">
+        <p class="eyebrow eyebrow-dark">A look at the app</p>
+        <h2 id="screens-title">Made for the next time<br>you step back in.</h2>
+      </div>
+      <div class="screenshot-row">
+        <figure class="screenshot-figure">
+          <img class="app-screenshot" src="assets/workbench.png" alt="Back to Bench workbench screen with a time filter, active project cards, a Save a new project button, and project search." width="1206" height="2622" loading="lazy" decoding="async">
+          <figcaption>Active projects and a search to find the details you saved.</figcaption>
+        </figure>
+        <figure class="screenshot-figure">
+          <img class="app-screenshot" src="assets/project-detail.png" alt="Back to Bench project detail for a hallway shelf, showing the next move, where the work stopped, materials location, and Resume button." width="1206" height="2622" loading="lazy" decoding="async">
+          <figcaption>The last state, next move, and place to pick things up.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <p class="eyebrow eyebrow-dark">Good to know</p>
+        <h2 id="faq-title">A few practical answers.</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Where are my projects stored?</summary>
+          <p>Project notes and photos are stored in the app on your iPhone. The app has no account or developer-operated cloud sync. iOS device backups may include app data depending on your device and Apple account settings.</p>
+        </details>
+        <details>
+          <summary>How do I keep a separate backup or delete my data?</summary>
+          <p>In Settings, choose <strong>Export a backup</strong> to create a JSON copy, then save it to a destination you choose. Export is manual, not automatic; that destination may store, sync, or share the file under its own settings. You can delete a project in the app. Deleting Back to Bench removes its local app data, but exported files and device backups must be managed separately.</p>
+        </details>
+        <details>
+          <summary>What happens when I import a backup?</summary>
+          <p>Normal imports use Merge: projects with new IDs are added, and projects with matching IDs are replaced by the backup copy. Reminders are turned off after import; edit a project to set one again. If the app detects an unreadable saved file, a recovery action can use a valid backup while preserving the unreadable file on the device.</p>
+        </details>
+        <details>
+          <summary>How do reminders work?</summary>
+          <p>Reminders use on-device notifications and require notification permission. Depending on your iOS notification settings, the project name and next step may appear on your Lock Screen. The session timebox is visual only and has no alarm.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="privacy-band" aria-labelledby="privacy-title">
+      <div class="privacy-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M12 7.5h24a2 2 0 0 1 2 2v31l-14-8.8-14 8.8v-31a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2.5"/><path d="M18 17h12M18 23h12" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+      </div>
+      <div class="privacy-copy">
+        <p class="eyebrow">Your notes, your choice</p>
+        <h2 id="privacy-title">Made to stay close to the work.</h2>
+        <p>Projects are stored in the app on your iPhone. There is no app account, advertising, analytics, developer-operated cloud server, or cloud sync. You can export a JSON copy or import one using the iOS file interface. iOS device backups may include app data depending on your device and Apple account settings.</p>
+        <p>Imports use Merge: new projects are added, matching projects are replaced by the backup copy, and reminders are reset. Backup files support up to 500 projects and 100 MB; each stored photo is limited to 2 MB.</p>
+        <a class="light-link" href="privacy.html">Read the privacy policy <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <p class="eyebrow eyebrow-dark">Back to Bench</p>
+      <h2 id="closing-title">A good place to leave off.</h2>
+      <p>Public release is in preparation. There is no public App Store or TestFlight download link yet; a link will be added here after Apple approval.</p>
+      <div class="closing-meta">
+        <span>Planned US price: <strong>$2.99 one-time</strong></span>
+        <span>No subscription</span>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="index.html">
+      <img class="brand-mark" src="assets/app-icon.png" alt="">
+      <span>Back to Bench</span>
+    </a>
+    <p>© 2026 Nathan Hart</p>
+    <nav aria-label="Footer navigation">
+      <a href="privacy.html">Privacy</a>
+      <a href="https://github.com/nahart86/back-to-bench-support/issues">Contact support</a>
+    </nav>
+  </footer>
 </body>
 </html>
